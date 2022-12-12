@@ -10,10 +10,22 @@
         android:id="@+id/second"
         android:layout_width="272dp"
         android:layout_height="240dp"
-        android:text="SEGUNDO"
+        android:layout_marginBottom="180dp"
         android:backgroundTint="@color/purple_500"
+        android:text="SEGUNDO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="150dp"
+        android:layout_height="102dp"
+        android:text="Funciona?"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/second"
+        app:layout_constraintEnd_toEndOf="@+id/second"
+        app:layout_constraintStart_toStartOf="@+id/second"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

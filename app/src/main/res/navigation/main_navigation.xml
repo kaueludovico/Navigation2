@@ -22,5 +22,8 @@
         <action
             android:id="@+id/actionSecondToFirstFragment"
             app:destination="@id/firstFragment" />
+        <argument
+            android:name="dado"
+            app:argType="string" />
     </fragment>
 </navigation>

@@ -10,10 +10,23 @@
         android:id="@+id/first"
         android:layout_width="272dp"
         android:layout_height="240dp"
-        android:text="PRIMEIRO"
         android:backgroundTint="@color/black"
+        android:text="PRIMEIRO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data" />
+
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insira um dado"
+        app:layout_constraintEnd_toEndOf="@+id/first"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/first"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
